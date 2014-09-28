@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddressInfo>
+  <Address>
+    <uniqueId>5</uniqueId>
+    <firstName>Andrew</firstName>
+    <lastName>MacNuaghton</lastName>
+    <phoneNumber>604</phoneNumber>
+    <phoneType>Office</phoneType>
+  </Address>
+  <Address>
+    <uniqueId>4</uniqueId>
+    <firstName>Andy</firstName>
+    <lastName>Test</lastName>
+    <phoneNumber>604 935 4102 x</phoneNumber>
+    <phoneType>Office</phoneType>
+  </Address>
+  <Address>
+    <uniqueId>6</uniqueId>
+    <firstName>Steph</firstName>
+    <lastName>Chappers</lastName>
+    <phoneNumber>444</phoneNumber>
+    <phoneType>Office</phoneType>
+  </Address>
+  <Address>
+    <uniqueId>7</uniqueId>
+    <firstName>Renee</firstName>
+    <lastName>Sta</lastName>
+    <phoneNumber>555</phoneNumber>
+    <phoneType>Cell</phoneType>
+  </Address>
+  <Address>
+    <uniqueId>8</uniqueId>
+    <firstName>Andy</firstName>
+    <lastName>Macnaughton</lastName>
+    <phoneNumber>644</phoneNumber>
+    <phoneType>Office</phoneType>
+  </Address>
+</AddressInfo>

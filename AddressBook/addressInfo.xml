@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddressInfo>
+  <Address>
+    <uniqueId>1</uniqueId>
+    <firstName>Andy</firstName>
+    <lastName>MacNaughton</lastName>
+    <phoneNumber>6049020456</phoneNumber>
+    <phoneType>Cell</phoneType>
+  </Address>
+  <Address>
+    <uniqueId>2</uniqueId>
+    <firstName>Andy</firstName>
+    <lastName>MacNaughton</lastName>
+    <phoneNumber>6049020456</phoneNumber>
+    <phoneType>Cell</phoneType>
+  </Address>
+  <Address>
+    <uniqueId>3</uniqueId>
+    <firstName>Andy</firstName>
+    <lastName>MacNaughton</lastName>
+    <phoneNumber>6049020456</phoneNumber>
+    <phoneType>Cell</phoneType>
+  </Address>
+</AddressInfo>

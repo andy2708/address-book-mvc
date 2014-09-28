@@ -1,0 +1,37 @@
+﻿body 
+{
+    background-color:white;
+    font-family:Verdana;
+    padding:40px;
+}
+.error
+{
+    color:Red;
+}
+h2
+{
+    color:#5A5D5A;
+}
+a:link,a:visited,a:hover
+{
+    color:#5A5D5A
+}
+#partialUpdate td
+{  
+    padding:4px 8px 4px 8px;
+}
+#partialUpdate th
+{  
+    text-align:left;
+    padding:4px 8px 4px 8px;
+}
+
+#partialUpdate table
+{  
+    background-color:#eee;
+    border-collapse:collapse;
+}
+.alternateRow
+{
+    background-color:White;
+}

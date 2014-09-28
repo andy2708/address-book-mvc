@@ -1,0 +1,5 @@
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\bin\Debug\AddressBook.dll
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\bin\Debug\AddressBook.pdb
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\obj\Debug\AddressBook.dll
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\obj\Debug\AddressBook.pdb
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\obj\Debug\AddressBook.csprojResolveAssemblyReference.cache

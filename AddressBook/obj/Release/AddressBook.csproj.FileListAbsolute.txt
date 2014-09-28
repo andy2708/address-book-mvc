@@ -1,0 +1,4 @@
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\bin\Release\AddressBook.dll
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\bin\Release\AddressBook.pdb
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\obj\Release\AddressBook.dll
+C:\Users\amacnaughton\Documents\Visual Studio 2010\Projects\AddressBook\AddressBook\obj\Release\AddressBook.pdb

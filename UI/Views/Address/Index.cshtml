@@ -1,0 +1,51 @@
+﻿@model  List<AddressBook.AddressInfo.Address>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="~/Assets/css/style.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+<script src="~/Assets/js/addressBook.js"></script>
+
+<h2>Address Book</h2>
+<a href="javascript:void(0)" onclick="addDialog()">Add Address</a>
+<br /><br />
+<div id="partialUpdate">
+@{ Html.RenderPartial("~/Views/Shared/_addressDetails.cshtml",@Model);}
+</div>
+<div style="display:none;" id="addEntry">
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input id="firstName" /></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input id="lastName" /></td>
+        </tr>
+        <tr>
+            <td>Phone Type</td>
+            <td>
+                <select id="phoneType">
+                    <option>Please Select</option>
+                    <option>Home</option>
+                    <option>Office</option>
+                    <option>Cell</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input id="phoneNumber"/></td>
+        </tr>
+      </table>
+      <input onclick="addEntry()" id="btnAdd" type="button" value="Add" />
+      <input onclick="editEntry()" id="btnEdit" type="button" value="Save Changes" style="display:none" />
+      <input onclick="deleteEntry()" id="btnDelete" type="button" value="Really Delete" style="display:none" />
+      <input type="hidden" id="hiddenIdField" />
+     
+      <div style="display:none" id="addEntryError" class="error">There was an error adding to the address book. This is the details<span id="addEntryErrorText"></span></div>
+      <div style="display:none" id="addEntryMessage">Successfully added to the address book.</div>
+      <div style="display:none" id="editEntryError" class="error">There was an error editing to the address book. This is the details<span id="editEntryErrorText"></span></div>
+      <div style="display:none" id="editEntryMessage">Successfully edited the address book.</div>
+      <div style="display:none" id="deleteEntryError" class="error">There was an error deleteing from the address book. This is the details<span id="deleteEntryErrorText"></span></div>
+      <div style="display:none" id="deleteEntryMessage">Successfully deleted from the address book.</div>
+</div>
